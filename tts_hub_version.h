@@ -1,0 +1,4 @@
+﻿#ifndef TTS_HUB_VERSION_H
+#define TTS_HUB_VERSION_H
+#define TTS_HUB_VERSION_STRING   "1.0.0"
+#endif /* TTS_HUB_VERSION_H */

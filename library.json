@@ -1,0 +1,14 @@
+{
+    "name": "tts_hub",
+    "version": "1.0.0",
+    "description": "TTS 中心组件：厂商无关统一语音合成入口（TtsHub），固定话术离线优先（TtsPhrases），科大讯飞 WebSocket 驱动（TtsXfyun，流式 JSON 状态机解析），长文本自动分段 + 16k 线性重采样",
+    "keywords": "tts, speech, xfyun, websocket, pcm",
+    "author": "chenxyon",
+    "license": "MIT",
+    "frameworks": "espidf",
+    "platforms": ["espressif32"],
+    "dependencies": {
+        "xfyun_auth": "*",
+        "espressif/esp_websocket_client": "^1.2.0"
+    }
+}
